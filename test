@@ -1,0 +1,199 @@
+
+	<img class="bgimg" src="./images/image1.webp" alt="Bhujbal Restaurent" />
+	<h1 class="centered"><span style="font-size:200px;padding-top:25px">B</span><span class="small">hujbal
+			Restaurent</span> </h1>
+
+
+	<h1 id="about">
+		<center>About Us</center>
+	</h1>
+	<h2>
+		<center>Our Special Dishes</center>
+	</h2>
+	<section>
+		<img class="bgimg2" src="./images/image1.jpg" alt="Bhujbal Restaurent" />
+
+		<center>
+			<table class="demo centered1">
+				<thead>
+					<caption><span style="font-size:150px;padding-top:35px;color:#dcca87">M</span><span
+							style="font-size:50px;padding-top:25px;color:#dcca87">enu</span></caption>
+					<tr>
+						<th>Sr no.</th>
+						<th>Dishes</th>
+						<th>Cost</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>**</td>
+						<td><strong>Bhujbal Restaurent Special</strong></td>
+						<td><strong>350/-</strong></td>
+					</tr>
+
+					<tr>
+						<td>1.</td>
+						<td>Veg Biryani</td>
+						<td>250/-</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>Chicken Biryani</td>
+						<td>350/-</td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>Panner Masala</td>
+						<td>375/-</td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td>Shev Bhaji</td>
+						<td>150/-</td>
+					</tr>
+					<tr>
+						<td>5.</td>
+						<td>Veg Kolhapuri</td>
+						<td>300/-</td>
+					</tr>
+					<tr>
+						<td>6.</td>
+						<td>Dal Tadka</td>
+						<td>200/-</td>
+					</tr>
+				<tbody>
+
+			</table>
+		</center>
+	</section>
+	<h1 id="contact">
+		<center>Contact Us</center>
+	</h1>
+
+
+    .bgimg {
+        width: 100%;
+        height: 100%;
+        repeat: no-repeat;
+    }
+
+    .bgimg2 {
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+        repeat: no-repeat;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .centered1 {
+        position: absolute;
+        top: 155%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .demo {
+        border: 1px solid #404040;
+        border-collapse: collapse;
+        padding: 5px;
+        width: 50%;
+    }
+
+    .demo th {
+        border: 1px solid #404040;
+        padding: 5px;
+        background: #F0F0F0;
+        align-items: center;
+    }
+
+    tbody tr {
+        background-color: #F0F0F0;
+    }
+
+    tbody tr:hover {
+        background-color: #111;
+        color: white;
+    }
+
+    .demo td {
+        border: 1px solid #404040;
+        padding: 5px;
+    }
+
+    <center>
+        <table class="demo top-right">
+            <thead>
+                <caption><span style="font-size:150px;padding-top:35px;color:gold">M</span><span
+                        style="font-size:50px;padding-top:25px;color:gold">enu</span></caption>
+                <tr>
+                    <th>Sr no.</th>
+                    <th>Dishes</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**</td>
+                    <td><strong>Bhujbal Restaurent Special</strong></td>
+                    <td><strong>350/-</strong></td>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td>Veg Biryani</td>
+                    <td>250/-</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Chicken Biryani</td>
+                    <td>350/-</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Panner Masala</td>
+                    <td>375/-</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Shev Bhaji</td>
+                    <td>150/-</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Veg Kolhapuri</td>
+                    <td>300/-</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Dal Tadka</td>
+                    <td>200/-</td>
+                </tr>
+            <tbody>
+
+        </table>
+    </center>
+
+
+    <nav>
+		<img class="b-logo" src="./images/b-removebg-preview.png" alt="B - Logo" /><br />
+		<hr />
+		<ul class="nav">
+
+			<a href="#">
+				<li>Home</li>
+			</a>
+			<a href="menu.html">
+				<li>Menu</li>
+			</a>
+			<a href="contact.html">
+				<li>Contact</li>
+			</a>
+		</ul>
+	</nav>
+    <img class="bgimg responsive" src="./images/13.jpg" alt="Bhujbal Restaurent" />
